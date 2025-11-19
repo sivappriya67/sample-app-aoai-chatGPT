@@ -4,7 +4,7 @@ import { Dialog, Stack, TextField } from '@fluentui/react'
 import { CopyRegular } from '@fluentui/react-icons'
 
 import { CosmosDBStatus } from '../../api'
-import FAB AI powered Technology Risk Assessment from '../../assets/FAB AI powered Technology Risk Assessment.svg'
+import FabLogo from '../../assets/FabLogo.png'
 import { HistoryButton, ShareButton } from '../../components/common/Button'
 import { AppStateContext } from '../../state/AppProvider'
 
@@ -42,7 +42,7 @@ const Layout = () => {
 
   useEffect(() => {
     if (!appStateContext?.state.isLoading) {
-      setLogo(ui?.logo || FAB AI powered Technology Risk Assessment)
+      setLogo(ui?.logo || FabLogo)
     }
   }, [appStateContext?.state.isLoading])
 

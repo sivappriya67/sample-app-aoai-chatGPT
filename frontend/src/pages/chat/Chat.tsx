@@ -12,7 +12,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 import styles from './Chat.module.css'
-import FAB AI powered Technology Risk Assessment from '../../assets/FAB AI powered Technology Risk Assessment.svg'
+import FabLogo from '../../assets/FabLogo.png'
 import { XSSAllowTags } from '../../constants/sanatizeAllowables'
 
 import {
@@ -108,7 +108,7 @@ const Chat = () => {
 
   useEffect(() => {
     if (!appStateContext?.state.isLoading) {
-      setLogo(ui?.chat_logo || ui?.logo || FAB AI powered Technology Risk Assessment)
+      setLogo(ui?.chat_logo || ui?.logo || FabLogo)
     }
   }, [appStateContext?.state.isLoading])
 
