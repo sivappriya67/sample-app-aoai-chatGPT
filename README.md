@@ -486,12 +486,12 @@ The interface allows for easy adaptation of the UI by modifying certain elements
 
 | App Setting | Required? | Default Value | Note |
 |---|---|---|---|
-|UI_TITLE|No|Contoso| Chat title (left-top) and page title (HTML)
-|UI_LOGO|No|| Logo (left-top). Defaults to Contoso logo. Configure the URL to your logo image to modify.
-|UI_CHAT_LOGO|No|| Logo (chat window). Defaults to Contoso logo. Configure the URL to your logo image to modify.
+|UI_TITLE|No|FAB AI Powered Technology Risk Assessment| Chat title (left-top) and page title (HTML)
+|UI_LOGO|No|| Logo (left-top). Defaults to FAB AI Powered Technology Risk Assessment logo. Configure the URL to your logo image to modify.
+|UI_CHAT_LOGO|No|| Logo (chat window). Defaults to FAB AI Powered Technology Risk Assessment logo. Configure the URL to your logo image to modify.
 |UI_CHAT_TITLE|No|Start chatting| Title (chat window)
 |UI_CHAT_DESCRIPTION|No|This chatbot is configured to answer your questions| Description (chat window)
-|UI_FAVICON|No|| Defaults to Contoso favicon. Configure the URL to your favicon to modify.
+|UI_FAVICON|No|| Defaults to FAB AI Powered Technology Risk Assessment favicon. Configure the URL to your favicon to modify.
 |UI_SHOW_SHARE_BUTTON|No|True|Share button (right-top)
 |UI_SHOW_CHAT_HISTORY_BUTTON|No|True|Show chat history button (right-top)
 |SANITIZE_ANSWER|No|False|Whether to sanitize the answer from Azure OpenAI. Set to True to remove any HTML tags from the response.|
